@@ -1,0 +1,209 @@
+@import url('https://fonts.cdnfonts.com/css/pp-neue-montreal');
+
+@font-face {
+    font-family: 'NM'; /* Primary font */
+    src: url('./NM.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'NMRegular'; /* Secondary font */
+    src: url('./NMRegular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background: #fff;
+    margin: 0;
+    font-family: 'NM', sans-serif;
+    src: url(./NM.woff) format('woff');
+  }
+  
+  h3 {
+    color: #000000;
+    margin: 0;
+  }
+
+  h2 {
+    font-size: 16px;
+    margin: 0;
+    font-family: 'NMRegular';
+  }
+
+  .hero {
+    width: 100%;
+    height: 80vh;
+    padding-top: 25px;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 100px;
+  }
+
+  .nav {
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    padding-left: 40px;
+    padding-right: 50px;
+    width: 90%;
+  }
+
+  .logosvg {
+    width: 48px;
+    height: auto;
+  }
+
+  .menu {
+    display: flex;
+    gap: 50px;
+  }
+
+  .line {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 5px;
+    line-height: 1.2;
+  }
+
+  .line h2 {
+    font-size: 17px;
+    font-family: 'NMRegular', sans-serif;
+  }
+
+  .time h3 {
+    font-weight: 500;
+  }
+
+  .timediv {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+  }
+
+  .timediv h3 {
+    font-family: 'NMRegular';
+    color: #818080;
+  }
+
+  .project h2 {
+    font-size: 20px;
+  }
+
+  .project {
+    padding-bottom: 5px;
+    border-bottom: 1px solid #000000;
+    display: flex;
+    gap: 5px;
+  }
+
+  .projectarrow {
+    width: 20px;
+    height: auto;
+  }
+
+  .bottomlanding {
+    display: flex;
+    align-items: end;
+    padding-left: 40px;
+    padding-right: 40px;
+    width: 90%;
+    justify-content: space-between;
+  }
+
+  .bottomlanding h1 {
+    width: 65%;
+    margin: 0;
+    font-size: 64px;
+    font-family: 'NMREGULAR';
+  }
+
+  .bottomlanding h3 {
+    color: #adadad;
+    font-family: 'NMREGULAR';
+  }
+  
+
+  .video {
+    position: relative;
+    width: 86%;
+    height: 80vh;
+    overflow: hidden;
+    padding: 40px;
+    border-radius: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+  
+    color: white;
+    z-index: 1;
+  }
+  
+  .myVideo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+  }
+
+  .scroll {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+
+  .scroll h3 {
+    padding-bottom: 3px;
+  }
+
+  .video h1 {
+    font-family: 'NMRegular';
+  }
+
+  .info {
+    width: 90%;
+    height: fit-content;
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+
+  .info h1 {
+    font-family: 'NMRegular';
+    font-size: 40px;
+    width: 80%;
+  }
+
+  .texto {
+    width: 100%;
+    text-align: right;
+    align-items: end;
+    justify-content: end;
+    display: flex
+  }
+
+  .info h2 {
+    color: slategrey;
+  }
+
+  .column {
+    width: 90%;
+    display: flex;
+    align-items: flex-start;
+    gap: 25px;
+  }
+
+  .column h2 {
+    width: 30%;
+    font-size: 20px;
+  }
